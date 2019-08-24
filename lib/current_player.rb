@@ -2,13 +2,10 @@ def turn_count(board)
   counter = 0
   i = 0
 
-  while i < board.size
-    if board[i] == "X" || board[i] == "O"
+  board.each do |tile|
+    if tile == "X" || tile == "O"
       counter += 1
-      i += 1
-    end
   end
-
   return counter
 end
 
