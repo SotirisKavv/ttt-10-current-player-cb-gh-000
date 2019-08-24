@@ -5,7 +5,7 @@ def turn_count(board)
     if tile == "X" || tile == "O"
       counter += 1
   end
-  
+
   return counter
 end
 
