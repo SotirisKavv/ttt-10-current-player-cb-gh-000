@@ -5,6 +5,7 @@ def turn_count(board)
   while i < board.size
     if board[i] == "X" || board[i] == "O"
       counter += 1
+      i += 1
     end
   end
 
