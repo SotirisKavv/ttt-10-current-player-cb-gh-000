@@ -13,6 +13,6 @@ def current_player(rounds)
 
   if rounds % 2 == 0
     return "X"
-  else 
-    return "O" 
+  else
+    return "O"
 end
