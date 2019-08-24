@@ -4,6 +4,7 @@ def turn_count(board)
   board.each do |tile|
     if tile == "X" || tile == "O"
       counter += 1
+    end
   end
 
   return counter
@@ -14,4 +15,4 @@ def current_player(board)
     return "X"
   else
     return "O"
-end end end
+end end
